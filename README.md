@@ -70,14 +70,6 @@ options under the top-level `librato` hash:
                          metric numStats. Default false -- they are
                          published to Librato.
 
-* `timerUnit`: A string to use for Y-Axis of timer metrics. This allows
-               timers to be corrolated in the same graph. Default is
-               "Milliseconds".
-
-* `timerFunction`: Used to determine how results for the same timestamp
-                   are summarized. Valid values are "sum" and "average".
-                   Default is "sum".
-
 ## Upgrading from the old Librato statsd fork
 
 If you are upgrading from the old Librato [statsd
